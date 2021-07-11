@@ -1,0 +1,218 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'handlee',cursive;
+    font-size: 13pt;
+    background: rgb(51, 62, 71);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: red;
+    align-items: center;
+    padding: 0 2rem;
+    height: 3rem;
+  }
+  .navbar .logo h4{
+      font-weight: bold;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  li a {
+    margin-left: 4rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+.navbar .nav ul li a:hover{
+    color: rgb(51, 62, 71);
+}
+header{
+    min-height: 100vh;
+    background: rgb(51, 62, 71);
+}
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 2rem 15rem;
+    color: #ffffff;
+}
+.home span{
+    color: red;
+}
+.home h1{
+    margin-bottom: .5rem;
+}
+.home p{
+    margin-bottom: .5rem;
+}
+.home .btn{
+    border: none;
+    background: #ffffff;
+    padding: .5rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
+}
+.home a{
+    text-decoration: none;
+    color: #000000;
+}
+.home .btn:hover{
+    background: red;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+section{
+    background: #ffffff;
+    overflow: hidden;
+    margin-bottom: .2rem;
+    padding: 2rem;
+}
+section h1{
+    text-align: center;
+}
+section span{
+    color: red;
+}
+section p{
+    font-size: .9rem;
+    text-align: center;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.about .box-right img{
+    width: 100%;
+    object-fit: cover;
+    border-left: 10px solid red;
+    border-bottom: 10px solid red;
+    border-radius: .5rem;
+}
+.about .box-right{
+    width: 400px;
+    padding-right: .5rem;
+}
+.about .box-left{
+    width: 400px;
+    margin-left: .5rem;
+    padding: 2rem;
+    border-left: 10px solid red;
+    border-bottom: 10px solid red;
+    border-radius: .5rem;
+}
+.about .box-left h1{
+    text-align: left;
+}
+.about .box-left span{
+    color: red;
+}
+.about .box-left h4{
+    margin-bottom: .5rem;
+    margin-top: .2rem;
+}
+.about .box-left p{
+    font-size: .9rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+.port-conten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 314px;
+    height: 314px;
+    margin-left: .5rem;
+    position: relative;
+    margin-top: 1rem;
+    box-shadow: .1rem .2rem .2rem .2rem aliceblue;
+    
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+    border-top: 4px solid red;
+    border-left: 8px solid red;
+    
+}
+.card h3{
+    margin-bottom: .5rem;
+    position: absolute;
+    margin: 0;
+    background: red;
+    color: #ffffff;
+    padding: .3rem .5rem;
+    border-radius: .5rem 0 .5rem 0;
+    font-size: 1rem;
+}
+
+
+.fn-conten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fn-conten .fn-box{
+    width: 314px;
+    height: 314px;
+    box-shadow: .1rem .2rem .2rem .2rem aliceblue;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: .5rem;
+    padding: .9rem;
+    border-radius: .5rem;
+    
+}
+.fn-conten .fn-box img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 3px solid red;
+    object-fit: cover;
+}
+.fn-conten .fn-box h3{
+    color: red;
+}
+.fn-conten .fn-box p{
+    text-align: justify;
+    font-size: .9rem;
+}
+.fn-conten .fn-box .btn{
+    background: red;
+    color: #ffffff;
+    border: none;
+    border-radius: .3rem;
+    padding: .2rem 1rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.fn-conten .fn-box:hover{
+    background: rgb(13, 23, 51);
+    color: #ffffff;
+    border-left: 8px solid red;
+}
+
+@media (max-width:1200px){
+    .home{
+        padding: 1rem 4rem;
+    }
+}
