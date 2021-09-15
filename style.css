@@ -245,5 +245,8 @@ section{
         width: 100%;
         border-right: 0;
     }
+    .home .content h3{
+    font-size: 3rem;
+    }
    
 }
