@@ -245,4 +245,7 @@ section{
         width: 100%;
         border-right: 0;
     }
+    .header .user h3{
+        font-size: 1rem;
+    }
 }
