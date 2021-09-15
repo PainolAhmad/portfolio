@@ -134,6 +134,7 @@ section{
 .btn{
 
 }
+//home section start
 
 .home{
     display: flex;
@@ -189,7 +190,7 @@ section{
     box-shadow: var(--box-shadow-inset);
     color: var(--green);
 }
-
+//home section end
 .container{
     display: flex;
     gap: 2rem;
