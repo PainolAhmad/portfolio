@@ -191,7 +191,7 @@ section{
     color: var(--green);
 }
 //home section end
-.container{
+.painol-container{
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -201,20 +201,20 @@ section{
 }
 
 
-.container .flex{
+.painol-container .painol-flex{
     width: 420px;
 }
-.container .flex img{
+.painol-container .painol-flex img{
     width: 100%;
     border-radius: .5rem;
 }
-.container .flex h3{
+.painol-container .painol-flex h3{
     font-size: 2.5rem;
     color: var(--black);
     line-height: 1.1;
     margin-bottom: .5rem;
 }
-.container .flex p{
+.painol-container .painol-flex p{
     font-size: 1.3rem;
     line-height: 1.5;
     text-align: justify;
