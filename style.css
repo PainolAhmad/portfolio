@@ -39,6 +39,8 @@ body.active{
     --box-shadow-inset: .4rem .4rem 1rem #111 inset,
                        -.4rem .4rem 1rem #333 inset;
 }
+//header section start
+
 .header{
     position: fixed;
     top: 0;
@@ -123,6 +125,7 @@ body.active{
     color: var(--green);
     box-shadow: var(--box-shadow-inset);
 }
+//header section end
 
 section{
     min-height: 100vh;
