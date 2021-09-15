@@ -221,6 +221,8 @@ section{
     html{
         font-size: 55%;
     }
+    .container{
+        gap: 0;
     body{
         padding-left: 0;
     }
