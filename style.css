@@ -220,7 +220,7 @@ section{
     text-align: justify;
     color: var(--black);
 }
-/*container end*/
+/* container end*/
 @media (max-width:991px){
     html{
         font-size: 55%;
