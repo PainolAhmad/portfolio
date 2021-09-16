@@ -39,7 +39,7 @@ body.active{
     --box-shadow-inset: .4rem .4rem 1rem #111 inset,
                        -.4rem .4rem 1rem #333 inset;
 }
-/*header section start*/
+/* header section start*/
 
 .header{
     position: fixed;
