@@ -39,7 +39,7 @@ body.active{
     --box-shadow-inset: .4rem .4rem 1rem #111 inset,
                        -.4rem .4rem 1rem #333 inset;
 }
-//header section start
+/*header section start*/
 
 .header{
     position: fixed;
@@ -125,7 +125,7 @@ body.active{
     color: var(--green);
     box-shadow: var(--box-shadow-inset);
 }
-//header section end
+/*header section end*/
 
 section{
     min-height: 100vh;
@@ -134,7 +134,7 @@ section{
 .btn{
 
 }
-//home section start
+/*home section start*/
 
 .home{
     display: flex;
@@ -190,7 +190,7 @@ section{
     box-shadow: var(--box-shadow-inset);
     color: var(--green);
 }
-//home section end
+/*home section end*/
 .painol-container{
     display: flex;
     gap: 2rem;
@@ -200,7 +200,7 @@ section{
     flex-wrap: wrap;
 }
 
-// container start
+/*container start*/
 .painol-container .painol-flex{
     width: 420px;
 }
@@ -220,7 +220,7 @@ section{
     text-align: justify;
     color: var(--black);
 }
-//container end
+/*container end*/
 @media (max-width:991px){
     html{
         font-size: 55%;
