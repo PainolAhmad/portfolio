@@ -17,13 +17,11 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-transform: capitalize;
-    transition: .2s linear;
     text-decoration: none;
 }
 html{
     font-size: 62.5%;
     overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 body{
     background: var(--bg-color);
